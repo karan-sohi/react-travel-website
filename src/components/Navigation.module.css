@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.nav {
+    width: 40%;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: right;
+  list-style: none;
+}
+
+.nav li {
+    margin: 1.5rem;
+}
+
+.signup {
+    padding: 15px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    border-color: white;
+
+}
