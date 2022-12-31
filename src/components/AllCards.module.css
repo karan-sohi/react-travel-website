@@ -1,0 +1,13 @@
+.cards {
+    padding: 5rem;
+}
+
+.cards h1{
+    text-align: center;
+}
+
+.allCards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

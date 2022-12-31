@@ -1,4 +1,5 @@
-import classes from './Home.module.css'
+import classes from './Home.module.css';
+import bckImage from '../images/img-home.jpg';
 
 const Home = props => {
     return (
