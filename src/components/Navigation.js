@@ -1,4 +1,5 @@
 import classes from "./Navigation.module.css";
+import { NavLink } from "react-router-dom";
 
 const Navigation = (props) => {
   return (
@@ -6,9 +7,15 @@ const Navigation = (props) => {
       <div className={classes.logo}>TRVL</div>
       <nav className={classes.nav}>
         <ul>
-          <li>Home</li>
-          <li>Services</li>
-          <li>Products</li>
+          <NavLink to="/" activeClassName={classes.active} exact>
+            <li>Home</li>
+          </NavLink>
+          <NavLink to="/services" activeClassName={classes.active}>
+            <li>Services</li>
+          </NavLink>
+          <NavLink to="/products" activeClassName={classes.active}>
+            <li>Products</li>
+          </NavLink>
         </ul>
       </nav>
       <button className={classes.signup}>Sign Up</button>
